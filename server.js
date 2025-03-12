@@ -9,7 +9,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 // Serve the form page (ensure you have a form.html file in the public folder)
 app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/final_unity/front/form.html');
+  res.sendFile(__dirname + 'https://amanhoster.github.io/unity_fina/frontend/login.html');
 });
 
 // Handle form submission
