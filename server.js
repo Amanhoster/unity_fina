@@ -24,8 +24,8 @@ app.post('/submit', (req, res) => {
 
   // Respond back to the client
 
-  //   res.redirect("https://gmoges.github.io/host_try1/back_front/result/index.html");
-  res.send('Form submitted successfully! Check the terminal for data.');
+     res.redirect("https://amanhoster.github.io/unity_fina/frontend/result/resualt.html");
+  //res.send('Form submitted successfully! Check the terminal for data.');
 });
 
 // Start the server
