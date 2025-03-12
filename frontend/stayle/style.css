@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+body{
+    background-image: url(https://lh3.googleusercontent.com/p/AF1QipNJNGRrPNQfIdHmUp0CF6e6XEJRgbK_i02Xnrco=s680-w680-h510);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200vh;
+}
+.first_continer{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    background-color: rgba(206, 206, 32, 0.376);
+    border-left: 15px solid #1c4408;  
+    border-right: 15px solid #1c4408; 
+    border-bottom: 15px solid #1c4408; 
+    border-top: none; 
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 10px; 
+    margin-left: 10px;
+}
+
+.first_continer img{
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    position: absolute;
+    top: 10.5% ;
+     left: 250px ;
+      transform: translate(-50%, -50%);
+      
+}
+
+.title{
+    font-size: 12px;
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 170px;
+}
+
+.type{
+    font-size: 15px;
+    padding-left: 20px;
+    width: 90%;
+    text-align: center;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    padding-bottom: 50px;
+}
+.type p{
+    margin-top: 10px;
+}
+hr{
+    color: white;
+    background-color: white;
+}
+.second_contanier{
+    padding-top: 40px;
+    padding-bottom: 70px;
+    background-color: rgba(206, 206, 32, 0.376);
+    border-left: 15px solid #1c4408;  
+    border-right: 15px solid #1c4408; 
+    border-bottom: 15px solid #1c4408; 
+    border-top: none; 
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 10px; 
+    margin-left: 0px;
+    margin-bottom: 40px;
+}
+
+.second_contanier .input input{
+    border: none;
+    width: 77%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.blue-btn{
+    background-color: rgba(0, 255, 234, 0.767);
+    width: 60px;
+    height: 30px;
+    
+}
+.log_tit{
+    font-size: 25px;
+}
+.second_contanier hr{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.second_contanier label{
+    font-size: 24px;
+}
+.first_icons img{
+    display: flex;
+    width: 60px;
+    
+}
+.second_icon svg{  
+    background-color: rgba(25, 25, 91, 0.921);
+    margin-left: 100px;
+    margin-right: 50%;
+    padding-left: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid;
+    border-color: white;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.first_two{ 
+    display: flex;
+    background-color: rgba(25, 25, 91, 0.921);
+    margin-left: 10%;
+    margin-right: 60%;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 0.5px solid;
+    border-color: white;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.second_two{
+    display: flex;
+    padding: 30px;
+   
+}
+.second_two .first_icons, .second_two .second_icon{
+    padding: 30px;
+    padding-left: 30px;
+    margin-left: 20px;
+    background-color:rgba(25, 25, 91, 0.921) ;
+    padding-bottom: 30px;
+    border: 1px solid;
+    border-color: white;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.tree_two{
+    display: flex;
+    padding: 30px;
+}
+
+.tree_two .first_icon, .tree_two .second_icon{
+    padding: 30px;
+    padding-left: 30px;
+    margin-left: 20px;
+    background-color:rgba(25, 25, 91, 0.921) ;
+    padding-bottom: 30px;
+    border: 1px solid;
+    border-color: white;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+  /*
+
+.second_two .first_icons h1{
+    background-color: rgba(25, 25, 91, 0.921);
+    margin-left: 100px;
+    padding-left: 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border: 1px solid;
+    border-color: white;
+    color: white;
+    font-size: 12px;
+    border-radius: 10px;
+}
+    */
+
+
+
+
+
+
+
+footer{
+    background-color: blue;
+    color: white;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+
+/*@media (min-width: 600px) {
+    .all_first_two{
+        display: flex;
+        width: 100%;
+    }
+    .second_contanier{
+        padding-left: 30px;
+        padding-right: 20%;
+        margin-left: 10px;
+        width: 40%;
+    }
+    .second_contanier .input input{
+        width: 100px;
+        padding-right: 0;
+    }
+}
+
+yetachgnaw media 850 neber 
+
+*/
+
+@media (min-width: 600px) {
+    .all_first_two{
+        display: flex;
+        width: 100%;
+    }
+    .first_continer{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .first_continer img{
+        right: 200px;
+    }
+    .second_contanier{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin: 2%;
+        padding-right: 30%;
+        padding-right: 20%;
+        width: 50%;
+    }
+    .second_contanier .input input{
+        border: none;
+        width: 150%;
+        height: 40px;
+        margin-bottom: 20px;  
+    }
+   
+  }
+
+  @media (min-width: 990px){
+    .second_contanier{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding-right: 200px;
+    }
+    .second_contanier .input input{
+        width: 290px;
+        padding-left: 10px;
+    }
+  }
