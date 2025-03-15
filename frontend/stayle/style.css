@@ -14,7 +14,7 @@ body{
     background-size: cover;
     background-position: center;
     width: 100%;
-    height: 200vh;
+    height: 150vh;
 }
 .first_continer{
     padding-top: 40px;
@@ -113,20 +113,21 @@ hr{
 .first_icons img{
     display: flex;
     width: 60px;
-    
 }
-.second_icon svg{  
+ .second_icon {  
     background-color: rgba(25, 25, 91, 0.921);
-    margin-left: 100px;
+    margin-left: 50px;
     margin-right: 50%;
-    padding-left: 90px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 0px;
     border: 1px solid;
     border-color: white;
     color: white;
     font-size: 12px;
     border-radius: 10px;
+    text-align: center;  
 }
 
 .first_two{ 
@@ -135,17 +136,19 @@ hr{
     margin-left: 10%;
     margin-right: 60%;
     padding-left: 50px;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     border: 0.5px solid;
     border-color: white;
     color: white;
     font-size: 12px;
     border-radius: 10px;
+    border: solid 2px white;
 }
 .second_two{
     display: flex;
     padding: 30px;
+    border: solid 2px white;
    
 }
 .second_two .first_icons, .second_two .second_icon{
@@ -164,6 +167,7 @@ hr{
 .tree_two{
     display: flex;
     padding: 30px;
+    border: solid 2px white;
 }
 
 .tree_two .first_icon, .tree_two .second_icon{
@@ -202,10 +206,10 @@ hr{
 
 
 footer{
-    background-color: blue;
+    background-color: rgb(30, 30, 219);
     color: white;
     margin-bottom: 0;
-    text-align: center;
+    border: solid 2px rgb(251, 249, 249);
 }
 
 
